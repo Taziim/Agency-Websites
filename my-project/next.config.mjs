@@ -1,9 +1,12 @@
-/** @type {import('next').NextConfig} */
+// Correct (ESM)
 const nextConfig = {
+  reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
+
+
 
